@@ -1,0 +1,7 @@
+.date_picker {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.date_picker_input {
+  color: rgba(250, 250, 250, 0.411);
+}

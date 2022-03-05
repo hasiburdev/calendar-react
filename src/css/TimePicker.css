@@ -1,0 +1,29 @@
+.time_picker {
+  width: 15rem;
+  min-width: 12rem;
+  height: 28rem;
+  background-color: #222227;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time_picker p {
+  color: white;
+}
+
+.time_stamps {
+  cursor: pointer;
+}
+.time_stamps:hover {
+  background: rgb(97, 97, 97);
+}
+.accordion {
+  width: 100%;
+}
+.accordion-item {
+  background-color: #222227;
+  color: white;
+  text-align: center;
+}
