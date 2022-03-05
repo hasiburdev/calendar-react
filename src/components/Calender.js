@@ -23,9 +23,9 @@ const MONTHS = [
 
 const Calender = () => {
   const [selectedDate, setSelectedDate] = useState(new Date().getDate());
-  const [currentMonth, setCurrentMonth] = useState(date.getMonth());
+  const [, setCurrentMonth] = useState(date.getMonth());
 
-  const { dateTime, setDateTime } = useDateTime();
+  const { setDateTime } = useDateTime();
 
   let lastDayOfCurrentMonth = new Date(
     date.getFullYear(),
@@ -110,8 +110,7 @@ const Calender = () => {
             return (
               <div
                 onClick={() => handleSelect(date, index + 1)}
-                className="today"
-                className={index + 1 === date.getDate() ? "selected" : ""}
+                className={index + 1 === date.getDate() ? "selected today" : "today"}
               >
                 {index + 1}{" "}
               </div>

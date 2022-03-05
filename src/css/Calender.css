@@ -99,6 +99,7 @@
 
 .today {
   border: 0.2rem solid #167e56;
+  color: teal;
   cursor: pointer;
 }
 .selected {
